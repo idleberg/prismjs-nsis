@@ -1,0 +1,28 @@
+{
+  "name": "prism-nsis",
+  "version": "0.0.0",
+  "description": "NSIS support for the PrismJS syntax highlighter",
+  "repository": "https://github.com/idleberg/prismjs-nsis",
+  "license": "MIT",
+  "keywords": [
+    "highlighter",
+    "nsis",
+    "syntax highlighter"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-uglify": "^3.0.0",
+    "prismjs": "^1.6.0",
+    "yargs": "^8.0.2"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "postinstall": "gulp build",
+    "test": "gulp lint"
+  }
+}
