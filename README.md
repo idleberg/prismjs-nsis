@@ -6,7 +6,7 @@
 [![Travis](https://img.shields.io/travis/idleberg/prismjs-nsis.svg?style=flat-square)](https://travis-ci.org/idleberg/prismjs-nsis)
 [![David](https://img.shields.io/david/dev/idleberg/prismjs-nsis.svg?style=flat-square)](https://david-dm.org/idleberg/prismjs-nsis?type=dev)
 
-NSIS syntax highlighter for PrismJS, a lightweight, extensible syntax highlighter, built with modern web standards in mind.
+NSIS syntax highlighter for [PrismJS](https://github.com/PrismJS/prism), a lightweight, extensible syntax highlighter, built with modern web standards in mind.
 
 **Note:** The official PrismJS distribution already ships with NSIS support, but development might divert in the future
 
