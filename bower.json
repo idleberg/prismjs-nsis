@@ -7,6 +7,8 @@
   "keywords": [
     "highlighter",
     "nsis",
+    "prism",
+    "prism.js",
     "syntax highlighter"
   ],
   "ignore": [
