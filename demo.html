@@ -4,21 +4,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Demo | NSIS for PrismJS</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-coy.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="node_modules/prismjs/themes/prism-coy.css">
 </head>
 <body>
 	<section class="container">
 		<h1 class="h2">Demo</h1>
-		<pre>
-			<code class="language-nsis">
+		<p>If you followed the instructions in <code><a href="https://github.com/idleberg/prismjs-nsis#readme">README.md</a></code>, the following code snippet should be highlighted.</p>
+		<pre><code class="language-nsis">/*
+ * Multi-line comment, baby
+ */
+
 ; Includes ---------------------------------
 !include MUI2.nsh
+!include LogicLib.nsh
 
 ; Settings ---------------------------------
 Name "installer_name"
 OutFile "installer_name.exe"
-RequestExecutionLevel admin
+RequestExecutionLevel user
 InstallDir "$PROGRAMFILES\installer_name"
 
 ; Pages ------------------------------------
@@ -32,7 +37,11 @@ InstallDir "$PROGRAMFILES\installer_name"
 ; Sections ---------------------------------
 Section "section" SECTION_INDEX
 
-    MessageBox MB_OK "Hello World" 
+    ${If} 0 == 1
+      nsExec::Exec "calc.exe" 
+    ${Else}
+      DetailPrint "Zero will never be one"
+    ${EndIf}
 
 SectionEnd
 
@@ -41,9 +50,7 @@ LangString DESC_SECTION_INDEX ${LANG_ENGLISH} "section_description"
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
     !insertmacro MUI_DESCRIPTION_TEXT ${SECTION_INDEX} $(DESC_SECTION_INDEX)
-!insertmacro MUI_FUNCTION_DESCRIPTION_END
-</code>
-		</pre>
+!insertmacro MUI_FUNCTION_DESCRIPTION_END</code></pre>
 	</section>
 	<script src="dist/prism-nsis.js" type="text/javascript" defer></script>
 </body>
