@@ -1,4 +1,4 @@
-/*! prism-nsis v0.1.0 | MIT License | https://github.com/idleberg/prismjs-nsis */
+/*! prism-nsis v0.1.1 | MIT License | github.com/idleberg/prismjs-nsis */
  Prism.languages.nsis = {
 	'comment': {
 		pattern: /(^|[^\\])(\/\*[\w\W]*?\*\/|[#;].*)/,
