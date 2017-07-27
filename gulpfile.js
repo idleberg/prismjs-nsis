@@ -10,11 +10,17 @@ const uglify = require('gulp-uglify');
 const buildFiles = [
     './node_modules/prismjs/components/prism-core.js',
     './src/prism-nsis.js',
-]
+];
 
 const lintFiles = [
-    './components/**/*.js'
+    './src/*.js'
 ];
+
+const options = {
+    output: {
+        comments: /^!/
+    }
+};
 
 // Build custom PrismJS version with NSIS
 gulp.task('build', gulp.series( (done) => {
@@ -26,7 +32,7 @@ gulp.task('build', gulp.series( (done) => {
     buildFiles.push('./node_modules/prismjs/plugins/file-highlight/prism-file-highlight.js');
 
     gulp.src(buildFiles)
-        .pipe(uglify())
+        .pipe(uglify(options))
         .pipe(concat('prism-nsis.js'))
         .pipe(gulp.dest('dist'));
     done();
