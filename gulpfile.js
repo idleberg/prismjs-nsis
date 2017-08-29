@@ -9,7 +9,7 @@ const uglify = require('gulp-uglify');
 // File definitions
 const buildFiles = [
     './node_modules/prismjs/components/prism-core.js',
-    './src/prism-nsis.js',
+    './src/nsis.js',
 ];
 
 const lintFiles = [
@@ -33,7 +33,7 @@ gulp.task('build', gulp.series( (done) => {
 
     gulp.src(buildFiles)
         .pipe(uglify(options))
-        .pipe(concat('prism-nsis.js'))
+        .pipe(concat('prism.pack.js'))
         .pipe(gulp.dest('dist'));
     done();
 }));
