@@ -23,7 +23,7 @@ const options = {
 };
 
 // Build custom PrismJS version with NSIS
-gulp.task('build', gulp.series( (done) => {
+gulp.task('build', (done) => {
     // Include INI highlighter
     if (argv.ini === true) {
         buildFiles.push('./node_modules/prismjs/components/prism-ini.js');
@@ -36,14 +36,14 @@ gulp.task('build', gulp.series( (done) => {
         .pipe(concat('prism.pack.js'))
         .pipe(gulp.dest('dist'));
     done();
-}));
+});
 
 // Lint JavaScript files
-gulp.task('lint', gulp.series( (done) => {
+gulp.task('lint', (done) => {
     gulp.src(lintFiles)
         .pipe(debug({title: 'eslint:'}))
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
     done();
-}));
+});
