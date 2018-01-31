@@ -12,15 +12,9 @@ NSIS syntax highlighter for [PrismJS](https://github.com/PrismJS/prism), a light
 
 ## Installation
 
-### npm
-
 ```bash
+# Install
 $ npm install prism-nsis
-```
-### Bower
-
-```bash
-$ bower install prism-nsis
 
 # Build
 $ cd prism-nsis
