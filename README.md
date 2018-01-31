@@ -2,7 +2,6 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/prism-nsis.svg?style=flat-square)](https://www.npmjs.org/package/prism-nsis)
-[![Bower](https://img.shields.io/bower/v/prism-nsis.svg?style=flat-square)]()
 [![Travis](https://img.shields.io/travis/idleberg/prismjs-nsis.svg?style=flat-square)](https://travis-ci.org/idleberg/prismjs-nsis)
 [![David](https://img.shields.io/david/dev/idleberg/prismjs-nsis.svg?style=flat-square)](https://david-dm.org/idleberg/prismjs-nsis?type=dev)
 
