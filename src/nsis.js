@@ -1,4 +1,4 @@
-/*! prism-nsis v0.1.3 | MIT License | github.com/idleberg/prismjs-nsis */
+/*! prism-nsis | MIT License | github.com/idleberg/prismjs-nsis */
 
  Prism.languages.nsis = {
 	'comment': {
