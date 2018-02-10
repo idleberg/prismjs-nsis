@@ -47,3 +47,8 @@ gulp.task('lint', (done) => {
         .pipe(eslint.failAfterError());
     done();
 });
+
+// Tasks
+gulp.task('default', gulp.series('lint', 'build', function(done) {
+  done();
+}));
