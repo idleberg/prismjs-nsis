@@ -1,9 +1,9 @@
 # prism-nsis
 
-[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/v/prism-nsis.svg?style=flat-square)](https://www.npmjs.org/package/prism-nsis)
-[![Travis](https://img.shields.io/travis/idleberg/prismjs-nsis.svg?style=flat-square)](https://travis-ci.org/idleberg/prismjs-nsis)
-[![David](https://img.shields.io/david/dev/idleberg/prismjs-nsis.svg?style=flat-square)](https://david-dm.org/idleberg/prismjs-nsis?type=dev)
+[![npm](https://flat.badgen.net/npm/license/prism-nsis)](https://www.npmjs.org/package/prism-nsis)
+[![npm](https://flat.badgen.net/npm/v/prism-nsis)](https://www.npmjs.org/package/prism-nsis)
+[![Travis](https://flat.badgen.net/travis/idleberg/prismjs-nsis)](https://travis-ci.org/idleberg/prismjs-nsis)
+[![David](https://flat.badgen.net/david/dev/idleberg/prismjs-nsis)](https://david-dm.org/idleberg/prismjs-nsis?type=dev)
 
 NSIS syntax highlighter for [PrismJS](https://github.com/PrismJS/prism), a lightweight, extensible syntax highlighter, built with modern web standards in mind.
 
