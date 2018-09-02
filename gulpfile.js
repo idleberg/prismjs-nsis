@@ -1,5 +1,5 @@
 // Dependencies
-const argv = require('yargs').argv
+const argv = require('yargs').argv;
 const concat = require('gulp-concat');
 const debug  = require('gulp-debug');
 const gulp   = require('gulp');
