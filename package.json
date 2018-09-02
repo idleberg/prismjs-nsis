@@ -27,7 +27,7 @@
   },
   "scripts": {
     "build": "gulp build",
-    "postinstall": "gulp build",
+    "postinstall": "npm run build",
     "test": "gulp lint"
   }
 }
