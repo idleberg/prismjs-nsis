@@ -12,15 +12,15 @@
     "syntax highlighter"
   ],
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.5.0",
-    "gulp": "^4.0.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
-    "gulp-eslint": "^5.0.0",
-    "gulp-uglify": "^3.0.1",
-    "prismjs": "^1.15.0",
-    "yargs": "^12.0.1"
+    "gulp-eslint": "^6.0.0",
+    "gulp-uglify": "^3.0.2",
+    "prismjs": "^1.17.1",
+    "yargs": "^13.3.0"
   },
   "eslintConfig": {
     "parser": "babel-eslint"
