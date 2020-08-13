@@ -4,6 +4,11 @@
   "description": "NSIS support for the PrismJS syntax highlighter",
   "repository": "https://github.com/idleberg/prismjs-nsis",
   "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "postinstall": "npm run build",
+    "test": "gulp lint"
+  },
   "keywords": [
     "highlighter",
     "nsis",
@@ -25,10 +30,5 @@
   },
   "eslintConfig": {
     "parser": "babel-eslint"
-  },
-  "scripts": {
-    "build": "gulp build",
-    "postinstall": "npm run build",
-    "test": "gulp lint"
   }
 }
