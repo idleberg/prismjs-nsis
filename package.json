@@ -12,15 +12,16 @@
     "syntax highlighter"
   ],
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
     "gulp-eslint": "^6.0.0",
     "gulp-uglify": "^3.0.2",
-    "prismjs": "^1.17.1",
-    "yargs": "^13.3.0"
+    "husky": "^4.2.5",
+    "prismjs": "^1.21.0",
+    "yargs": "^13.3.2"
   },
   "eslintConfig": {
     "parser": "babel-eslint"
