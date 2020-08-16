@@ -24,12 +24,8 @@ $ yarn || npm install
 
 ### Build
 
-A minified JavaScript package will be built automatically after installing with NPM. To manually trigger a build, run `gulp build`. If you wish to support [InstallOptions](http://nsis.sourceforge.net/Docs/InstallOptions/Readme.html), use `gulp build --ini` to include the highlighter for INI files.
+A minified JavaScript package will be built automatically after installing with NPM. To manually trigger a build, run `npm run build`.
 
 ## License
 
 This work is licensed under the [The MIT License](LICENSE.md).
-
-## Donate
-
-You are welcome to support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/prismjs-nsis) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
