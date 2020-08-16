@@ -4,6 +4,7 @@
   "description": "NSIS support for the PrismJS syntax highlighter",
   "repository": "https://github.com/idleberg/prismjs-nsis",
   "license": "MIT",
+  "main": "dist/nsis.js",
   "scripts": {
     "build": "rollup --config",
     "dev": "npm run start",
