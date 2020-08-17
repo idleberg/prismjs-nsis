@@ -20,20 +20,21 @@
     "prism.js",
     "syntax highlighter"
   ],
+  "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
     "eslint": "^7.6.0",
     "eslint-config-recommended": "^4.1.0",
+    "husky": "^4.2.5",
+    "retrie": "^0.1.1",
     "rollup": "^2.24.0",
+    "rollup-plugin-entry-code-injector": "^1.0.0",
     "rollup-plugin-terser": "^7.0.0"
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run test"
     }
-  },
-  "dependencies": {
-    "husky": "^4.2.5"
   }
 }
