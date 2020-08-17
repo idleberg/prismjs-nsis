@@ -56,12 +56,24 @@ const injector = entryCodeInjector({
       'SHCTX', 'SHELL_CONTEXT', 'SYSTEM',
       'TEMPORARY'
     ].sort();
-    const NSIS_IMPORTANT = ['!addincludedir', '!addplugindir', '!appendfile', '!cd', '!define', '!delfile', '!echo', '!else', '!endif', '!error', '!execute', '!finalize', '!getdllversion', '!gettlbversion', '!ifdef', '!ifmacrodef', '!ifmacrondef', '!ifndef', '!if', '!include', '!insertmacro', '!macroend', '!macro', '!makensis', '!packhdr', '!pragma', '!searchparse', '!searchreplace', '!system', '!tempfile', '!undef', '!verbose', '!warning'].sort();
+    const NSIS_IMPORTANT = [
+      '!addincludedir', '!addplugindir', '!appendfile',
+      '!cd',
+      '!define', '!delfile',
+      '!echo',
+      '!else', '!endif', '!error', '!execute',
+      '!finalize',
+      '!getdllversion', '!gettlbversion',
+      '!ifdef', '!ifmacrodef', '!ifmacrondef', '!ifndef', '!if', '!include', '!insertmacro',
+      '!macroend', '!macro', '!makensis',
+      '!packhdr', '!pragma',
+      '!searchparse', '!searchreplace', '!system',
+      '!tempfile',
+      '!undef',
+      '!verbose',
+      '!warning'
+    ].sort();
     const NSIS_IMPORTANT_BLOCKS = ['ifdef', 'ifndef', 'if', 'ifmacrodef', 'ifmacrondef', 'else', 'endif'].sort();
-
-    code = code.replace('$NSIS_KEYWORDS', retrie(NSIS_KEYWORDS));
-    code = code.replace('$NSIS_IMPORTANT', retrie(NSIS_IMPORTANT));
-    code = code.replace('$NSIS_PROPERTY', retrie(NSIS_PROPERTY));
 
     return (code
       .replace('%NSIS_KEYWORDS%', retrie([...NSIS_KEYWORDS, ...NSIS_BLOCKS]))
