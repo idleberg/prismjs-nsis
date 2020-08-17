@@ -32,7 +32,7 @@ const injector = entryCodeInjector({
       'XPStyle'
     ].sort();
     const NSIS_BLOCKS = ['Function', 'FunctionEnd', 'Section', 'SectionEnd', 'SectionGroup', 'SectionGroupEnd', 'PageEx', 'PageExEnd'].sort();
-    const NSIS_PROPERTY = [
+    const NSIS_PROPERTIES = [
       'admin', 'all', 'ARCHIVE', 'auto',
       'both', 'bottom', 'bzip2',
       'colored', 'components','current', 'custom',
@@ -74,7 +74,7 @@ const injector = entryCodeInjector({
     return (code
       .replace('%NSIS_KEYWORDS%', retrie([...NSIS_KEYWORDS, ...NSIS_BLOCKS]))
       .replace('%NSIS_IMPORTANT%', retrie([...NSIS_IMPORTANT, ...NSIS_IMPORTANT_BLOCKS]))
-      .replace('%NSIS_PROPERTY%', retrie(NSIS_PROPERTY))
+      .replace('%NSIS_PROPERTIES%', retrie(NSIS_PROPERTIES))
     );
   }
 });

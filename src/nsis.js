@@ -13,7 +13,7 @@
 		pattern: /(^\s*)%NSIS_KEYWORDS%\b/m,
 		lookbehind: true
 	},
-	'property': /\b%NSIS_PROPERTY%\b/,
+	'property': /\b%NSIS_PROPERTIES%\b/,
 	'constant': /\${[\w.:^-]+}|\$\([\w.:^-]+\)/i,
 	'variable': /\$\w+/i,
 	'number': /\b-?(?:0x[\dA-Fa-f]+|\d*\.?\d+(?:[Ee]-?\d+)?)\b/,
