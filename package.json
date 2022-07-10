@@ -1,6 +1,6 @@
 {
   "name": "prism-nsis",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "NSIS support for the PrismJS syntax highlighter",
   "repository": "https://github.com/idleberg/prismjs-nsis",
   "license": "MIT",
