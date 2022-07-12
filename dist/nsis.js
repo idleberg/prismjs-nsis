@@ -23,7 +23,7 @@
 		'operator': /--?|\+\+?|<=?|>=?|==?=?|&&?|\|\|?|[?*/~^%]/,
 		'punctuation': /[{}[\];(),.:]/,
 		'important': {
-			pattern: /(^\s*)!(?:a(?:dd(?:includedir|plugindir)|ppendfile)|cd|de(?:fine|lfile)|e(?:cho|rror|xecute|lse|ndif)|finalize|get(?:dllversion|tlbversion)|i(?:n(?:clude|sertmacro)|f(?:(?:def|macro(?:def|ndef)|ndef))?)|makensis|p(?:ackhdr|ragma)|s(?:earch(?:parse|replace)|ystem)|tempfile|undef|verbose|warning)\b/mi,
+			pattern: /(^\s*)!(?:a(?:dd(?:includedir|plugindir)|ppendfile)|cd|de(?:fine|lfile)|e(?:cho|rror|xecute|lse|ndif)|finalize|get(?:dllversion|tlbversion)|i(?:n(?:clude|sertmacro)|f(?:(?:def|macro(?:def|ndef)|ndef))?)|makensis|p(?:ackhdr|ragma)|s(?:earch(?:parse|replace)|ystem)|tempfile|un(?:def|instfinalize)|verbose|warning)\b/mi,
 			lookbehind: true
 		}
 	};
