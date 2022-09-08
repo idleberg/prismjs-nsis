@@ -3,11 +3,11 @@
 
 	/*! prism-nsis | MIT License | github.com/idleberg/prismjs-nsis */
 
-	 Prism.languages.nsis = {
+	Prism.languages.nsis = {
 		'comment': {
 			pattern: /(^|[^\\])(\/\*[\s\S]*?\*\/|[#;].*)/,
 			lookbehind: true,
-	    greedy: true
+			greedy: true
 		},
 		'string': {
 			pattern: /("|')(?:\\.|(?!\1)[^\\\r\n])*\1/,
