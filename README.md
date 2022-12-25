@@ -2,7 +2,7 @@
 
 [![npm](https://flat.badgen.net/npm/license/prism-nsis)](https://www.npmjs.org/package/prism-nsis)
 [![npm](https://flat.badgen.net/npm/v/prism-nsis)](https://www.npmjs.org/package/prism-nsis)
-[![CI](https://img.shields.io/github/workflow/status/idleberg/prismjs-nsis/CI?style=flat-square)](https://github.com/idleberg/prismjs-nsis/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/idleberg/prismjs-nsis/default.yml?style=flat-square)](https://github.com/idleberg/prismjs-nsis/actions)
 
 NSIS syntax highlighter for [PrismJS](https://github.com/PrismJS/prism), a lightweight, extensible syntax highlighter, built with modern web standards in mind.
 
