@@ -1,5 +1,5 @@
 import { entryCodeInjector } from 'rollup-plugin-entry-code-injector';
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import retrie from 'retrie';
 
 const injector = entryCodeInjector({

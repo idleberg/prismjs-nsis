@@ -34,8 +34,7 @@
     "lint-staged": "^13.2.3",
     "retrie": "^0.1.1",
     "rollup": "^3.26.0",
-    "rollup-plugin-entry-code-injector": "^1.0.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-entry-code-injector": "^1.0.0"
   },
   "husky": {
     "hooks": {
@@ -44,5 +43,8 @@
   },
   "lint-staged": {
     "*.(js|json)": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.3"
   }
 }
