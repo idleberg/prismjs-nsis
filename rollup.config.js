@@ -55,7 +55,7 @@ const injector = entryCodeInjector({
       'zlib'
     ].sort();
     const NSIS_IMPORTANT = [
-      '!addincludedir', '!addplugindir', '!appendfile',
+      '!addincludedir', '!addplugindir', '!appendfile', '!assert',
       '!cd',
       '!define', '!delfile',
       '!echo',
