@@ -10,5 +10,8 @@ yarn.lock
 # Yeoman
 .yo-rc.json
 
+# build artifacts
+dist/
+
 # Project specific
 todo.md
