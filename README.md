@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This package has been renamed and is published under the new name [`@nsis/prismjs`](https://github.com/idleberg/nsis-org/tree/main/packages/prismjs).
+
 # prism-nsis
 
 [![npm](https://flat.badgen.net/npm/license/prism-nsis)](https://www.npmjs.org/package/prism-nsis)
